@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+html,body {
+margin: 0;
+padding:0
+}
+body{
+font-family: Merriweather, serif;
+font-size: 20px;
+line-height: 1.5;
+width: 900px;
+margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+li  
+{
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 1px dotted  royalblue;
+    line-height: 2; 
+}
+
+@media print {
+
+body {
+    font-family: Times New Roman, serif;
+    font-size: 12px;
+    margin-right: 20%;
+}
+}
